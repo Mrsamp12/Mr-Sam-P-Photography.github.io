@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Polar Games Studios</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+
+    <section class="showcase">
+
+      <header>
+        <h2 class="logo">Polar Games Studio</h2>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="videos/Loop_Background.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Discover my games</h2>
+        <h3>Android exclusives</h3>
+        <a href="#">Discover</a>
+      </div>
+
+      <ul class="social">
+        <li><a href='#'><img src="images/Icon_Facebook.png" alt=""></a></li>
+        <li><a href='#'><img src="images/Icon_Instagram.png" alt=""></a></li>
+        <li><a href='#'><img src="images/Icon_Twitter.png" alt=""></a></li>
+      </ul>
+
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Donate</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+
+<script type="text/javascript">
+  const menuTooggle = document.querySelector('.toggle')
+  const showcase = document.querySelector('.showcase')
+
+  menuTooggle.addEventListener('click', () => {
+    menuTooggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+</script>
+
+  </body>
+
+</html>
